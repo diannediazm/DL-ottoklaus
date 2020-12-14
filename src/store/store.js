@@ -34,7 +34,7 @@ export default new Vuex.Store({
         commit('mutarJuguetes', arreglo);
       });
     },
-    agregandoJuguetes(context,data){
+    agregarJuguete(context,data){
       db.collection("juguetes").add({
         codigo: data.codigo,
         nombre: data.nombre,

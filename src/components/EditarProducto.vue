@@ -19,7 +19,7 @@
                 <b-form-input id="input-3" v-model="form.precio" type="number" required placeholder="Ingresar Precio"></b-form-input>
             </b-form-group>
 
-                <b-button type="submit" variant="primary" class="mx-1">Actualizar</b-button>
+                <b-button type="submit" variant="primary" class="mx-1">Editar</b-button>
                 <b-button type="reset" variant="danger" class="mx-1">Reset</b-button>
                 <b-button type="reset" variant="info" class="mx-1" @click="$router.push('/listado')">Volver</b-button>
             </b-form>

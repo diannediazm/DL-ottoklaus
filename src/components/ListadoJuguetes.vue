@@ -1,7 +1,7 @@
 <template>
     <div class="container text-center my-5">
         <h1>Listado de juguetes</h1>
-        <b-button variant="info" class="my-5" data-toggle="modal" data-target="#exampleModal">Agregar producto</b-button>
+        <b-button variant="info" class="my-5" href="/agregar">Agregar producto</b-button>
         <el-table
           :data="dataJuguetes"
           style="width: 100%">
